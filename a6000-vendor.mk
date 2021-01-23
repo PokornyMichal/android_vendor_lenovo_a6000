@@ -51,7 +51,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6000/proprietary/vendor/firmware/cpp_firmware_v1_1_6.fw:system/vendor/firmware/cpp_firmware_v1_1_6.fw \
     vendor/lenovo/a6000/proprietary/vendor/firmware/cpp_firmware_v1_2_0.fw:system/vendor/firmware/cpp_firmware_v1_2_0.fw \
     vendor/lenovo/a6000/proprietary/vendor/firmware/cpp_firmware_v1_4_0.fw:system/vendor/firmware/cpp_firmware_v1_4_0.fw \
-    vendor/lenovo/a6000/proprietary/lib/sensors.a6000.so:system/lib/sensors.a6000.so \
+    vendor/lenovo/a6000/proprietary/system/lib/sensors.a6000.so:system/lib/sensors.a6000.so \
     vendor/lenovo/a6000/proprietary/vendor/framework/qcnvitems.jar:system/vendor/framework/qcnvitems.jar \
     vendor/lenovo/a6000/proprietary/vendor/framework/qcrilhook.jar:system/vendor/framework/qcrilhook.jar \
     vendor/lenovo/a6000/proprietary/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service:system/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service \
@@ -78,8 +78,8 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6000/proprietary/vendor/lib/egl/libRBGLESv1_CM_adreno.so:system/vendor/lib/egl/libRBGLESv1_CM_adreno.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/egl/libRBGLESv2_adreno.so:system/vendor/lib/egl/libRBGLESv2_adreno.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
-    vendor/lenovo/a6000/proprietary/lib/vendor.qti.hardware.iop@1.0.so:system/lib/vendor.qti.hardware.iop@1.0.so \
-    vendor/lenovo/a6000/proprietary/lib/vendor.qti.hardware.iop@2.0.so:system/lib/vendor.qti.hardware.iop@2.0.so \
+    vendor/lenovo/a6000/proprietary/system/lib/vendor.qti.hardware.iop@1.0.so:system/lib/vendor.qti.hardware.iop@1.0.so \
+    vendor/lenovo/a6000/proprietary/system/lib/vendor.qti.hardware.iop@2.0.so:system/lib/vendor.qti.hardware.iop@2.0.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/vendor.qti.hardware.iop@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.iop@1.0_vendor.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/vendor.qti.hardware.iop@2.0_vendor.so:system/vendor/lib/vendor.qti.hardware.iop@2.0_vendor.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/hw/vendor.qti.hardware.iop@1.0-impl.so:system/vendor/lib/hw/vendor.qti.hardware.iop@1.0-impl.so \
@@ -237,12 +237,12 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6000/proprietary/vendor/lib/libOmxApeDec.so:system/vendor/lib/libOmxApeDec.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libOmxApeDecSw.so:system/vendor/lib/libOmxApeDecSw.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
-    vendor/lenovo/a6000/proprietary/lib/libFileMux.so:system/lib/libFileMux.so \
-    vendor/lenovo/a6000/proprietary/lib/libOmxMux.so:system/lib/libOmxMux.so \
-    vendor/lenovo/a6000/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
-    vendor/lenovo/a6000/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
-    vendor/lenovo/a6000/proprietary/lib/libmmparser_lite.so:system/lib/libmmparser_lite.so \
-    vendor/lenovo/a6000/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
+    vendor/lenovo/a6000/proprietary/system/lib/libFileMux.so:system/lib/libFileMux.so \
+    vendor/lenovo/a6000/proprietary/system/lib/libOmxMux.so:system/lib/libOmxMux.so \
+    vendor/lenovo/a6000/proprietary/system/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
+    vendor/lenovo/a6000/proprietary/system/lib/libmmosal.so:system/lib/libmmosal.so \
+    vendor/lenovo/a6000/proprietary/system/lib/libmmparser_lite.so:system/lib/libmmparser_lite.so \
+    vendor/lenovo/a6000/proprietary/system/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libaptX_encoder.so:system/vendor/lib/libaptX_encoder.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libaptXHD_encoder.so:system/vendor/lib/libaptXHD_encoder.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libldacBT_enc.so:system/vendor/lib/libldacBT_enc.so \
