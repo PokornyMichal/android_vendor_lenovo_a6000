@@ -251,7 +251,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
     libloc_ds_api \
-    libtime_genoff \
     shutdownlistener \
     TimeService \
     qcrilmsgtunnel
