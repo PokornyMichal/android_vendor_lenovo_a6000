@@ -290,7 +290,8 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6000/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/vendor.qti.gnss@1.0_vendor.so:system/vendor/lib/vendor.qti.gnss@1.0_vendor.so \
-    vendor/lenovo/a6000/proprietary/system/lib/android.hardware.gnss@1.0-v27.so:system/lib/android.hardware.gnss@1.0-v27.so
+    vendor/lenovo/a6000/proprietary/system/lib/android.hardware.gnss@1.0-v27.so:system/lib/android.hardware.gnss@1.0-v27.so \
+    vendor/lenovo/a6000/proprietary/system/lib/android.frameworks.sensorservice@1.0-v27.so:system/lib/android.frameworks.sensorservice@1.0-v27.so
 
 PRODUCT_PACKAGES += \
     shutdownlistener \
