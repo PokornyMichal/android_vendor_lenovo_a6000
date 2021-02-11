@@ -54,6 +54,9 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6000/proprietary/system/lib/sensors.a6000.so:system/lib/sensors.a6000.so \
     vendor/lenovo/a6000/proprietary/vendor/framework/qcnvitems.jar:system/vendor/framework/qcnvitems.jar \
     vendor/lenovo/a6000/proprietary/vendor/framework/qcrilhook.jar:system/vendor/framework/qcrilhook.jar \
+    vendor/lenovo/a6000/proprietary/vendor/etc/permissions/qcrilhook.xml:system/vendor/etc/permissions/qcrilhook.xml \
+    vendor/lenovo/a6000/proprietary/vendor/etc/permissions/qcnvitems.xml:system/vendor/etc/permissions/qcnvitems.xml \
+    vendor/lenovo/a6000/proprietary/vendor/etc/permissions/privapp-permissions-qti.xml:system/etc/permissions/privapp-permissions-qti.xml \
     vendor/lenovo/a6000/proprietary/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service:system/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service \
     vendor/lenovo/a6000/proprietary/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc:system/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc \
     vendor/lenovo/a6000/proprietary/vendor/etc/perf/perfboostsconfig.xml:system/vendor/etc/perf/perfboostsconfig.xml \
