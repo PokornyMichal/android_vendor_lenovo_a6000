@@ -279,6 +279,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6000/proprietary/vendor/lib/libloc_core.so:system/vendor/lib/libloc_core.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libloc_ds_api.so:system/vendor/lib/libloc_ds_api.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libloc_externalDr.so:system/vendor/lib/libloc_externalDr.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib/libloc_externalDrcore.so:system/vendor/lib/libloc_externalDrcore.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libloc_pla.so:system/vendor/lib/libloc_pla.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libloc_stub.so:system/vendor/lib/libloc_stub.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/liblocation_api.so:system/vendor/lib/liblocation_api.so \
