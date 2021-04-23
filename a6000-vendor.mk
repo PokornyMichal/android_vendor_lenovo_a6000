@@ -295,6 +295,10 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6000/proprietary/system/lib/android.hardware.gnss@1.0-v27.so:system/lib/android.hardware.gnss@1.0-v27.so \
     vendor/lenovo/a6000/proprietary/system/lib/android.frameworks.sensorservice@1.0-v27.so:system/lib/android.frameworks.sensorservice@1.0-v27.so
 
+# GNU parted
+PRODUCT_COPY_FILES += \
+    vendor/lenovo/a6000/proprietary/vendor/bin/parted:system/vendor/bin/parted
+
 PRODUCT_PACKAGES += \
     shutdownlistener \
     qcrilmsgtunnel
