@@ -299,6 +299,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/lenovo/a6000/proprietary/vendor/bin/parted:system/vendor/bin/parted
 
+# OMX Qcom HEVC decoder
+PRODUCT_COPY_FILES += \
+    vendor/lenovo/a6000/proprietary/vendor/lib/libHevcSwDecoder.so:system/vendor/lib/libHevcSwDecoder.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib/libOmxVdecHevc.so:system/vendor/lib/libOmxVdecHevc.so
+
 PRODUCT_PACKAGES += \
     shutdownlistener \
     qcrilmsgtunnel
